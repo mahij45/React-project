@@ -1,23 +1,12 @@
 import React from 'react'
-import { useForm } from 'react-hook-form'
 
-export default function Formfilling() {
-const[register]=useForm()
+export default function () {
   return (
     <div>
-        <form>{   ...register("firstname")}
-<input     type='text' placeholder='firstname'/>
-<br/>
-<input   {   ...register("firstname")} type='text' placeholder='firstname'/>
-<br/>
-<input   {   ...register("firstname")} type='text' placeholder='firstname'/>
-<br/>
-<input   {   ...register("firstname")} type='text' placeholder='firstname'/>
-<button type='submit'>submit</button>
-</form>
-
-
-
+    
+    <h1>mahi's project</h1>
+    <input type='text' placeholder='firstname'/>
+    <input type='text' placeholder='firstname'/>
     </div>
   )
 }
